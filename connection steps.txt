@@ -1,0 +1,27 @@
+commands that are used to push a filein github
+
+
+touch .gitignore // that is used to ignore file that you don't want to push
+
+git config --global user.name "Ankit Kumar"
+git config --global user.email "krankit2607@gmail.com"
+
+
+git init // to initilize git repository
+
+git add . //files except those file that we want to ignore will come to staging area
+
+git commit -m "Initial Commit"
+git status # Just to see
+
+Run this command
+
+$ ssh-keygen -t rsa -b 4096 -C "krankit2607@gmail.com"
+
+tail <path to id_rsa.pub> # Add this key to your Github account
+
+git remote add origin <SSH URL.GIT>
+
+git push origin master
+
+Now your project has been uploaded to github  
