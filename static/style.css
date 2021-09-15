@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#logo{
+    display:flex;
+    margin:0px 14px;
+    color:white;
+    align-items:center;
+    font-size: 22px;
+    margin-right: 23px;
+}
+
+#logo img{
+    height: 52px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #cf4141;
+    padding:13px 5px;
+
+}
+
+#navbar ul{
+    display:flex;
+    flex-direction:row;
+    /* justify-content: center; */
+    font-family: 'Besley', serif;
+    align-items:center;
+    
+
+}
+
+#navbar li{
+    list-style-type: none;
+    padding: 4px 12px;
+}
+
+#navbar li a{
+    text-decoration:none;
+    color:white;
+    font-size: 24px;
+    
+}
+
+#navbar li a:hover{
+color:black;
+    
+}
+
+#introsection{
+    padding-bottom: 40px;
+    background: center/ cover no-repeat url("../static/bg.jpg");
+    height: 500px;
+    background-color:red;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:35px;
+    align-items: center;
+    font-family: 'Besley', serif;
+}
+#introsection div.small{
+    font-size:25px;
+}
+
+
+#missionsection{
+
+    height: 300px;
+    /* background-color: rgb(105, 221, 150); */
+    margin: auto;
+    display: block;
+    width: 70%;
+}
+
+#missionsection h2{
+text-align:center;
+padding-top:20px;
+font-family: 'Besley', serif;
+}
+
+
+#missionsection .card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 27%;
+    margin: 30px 24px;
+    height: 185px;
+    display: inline-block;
+    background-color: #ffeaea;
+    font-family: 'Besley', serif;
+    }
+
+.card h3{
+        text-align:center;
+        padding-top:10px;
+}
+
+.card-box{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height:100px;
+    padding:0px 14px;
+    margin: 13px 0px;
+}
+
+.card-img img{
+    height:inherit;
+    padding:0px 14px;
+}
+
+.card-content p{
+    font-size: 15px;
+    padding: 0px 2px;
+}
+
+    
+#sponsuresection{
+
+    height: 300px;
+    background-color:yellow;
+}
+
+#sponsuresection h2{
+text-align:center;
+padding-top:20px;
+font-family: 'Besley', serif;
+}
+
+#sponsure{
+    margin: 35px auto;
+    height: 118px;
+    max-height: 1000px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.spimage{
+    height:80%;
+    margin:20px;
+}
+
+
+
+#footer{
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Besley', serif;
+    font-size: 13px;
+}
+

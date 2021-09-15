@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    margin:10px 0px;
+}
+
+
+.container{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.container h1{
+    font-family: 'Besley', serif;
+    margin-bottom: 40px;
+    font-size: 46px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.myInput{
+    width: 60%;
+    padding: 10px;
+    margin: 7px 5px;
+    font-size: 12px;
+    border: 2px solid #c75959;
+    border-radius: 16px;
+    outline:none;
+    
+}
+
+.btn{
+    padding: 10px 66px;
+    color: white;
+    background-color: #cf4141;
+    border: 2px solid #000;
+    border-radius: 13px;
+    cursor: pointer;
+    margin: 24px 0px;
+}
+

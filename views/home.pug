@@ -1,0 +1,56 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+
+
+    Section#introsection 
+        div Welcome To Ankit's Dance Academy
+        div.small Eat Sleep Dance Repeat   
+    
+    Section#missionsection 
+      h2 Our Mission
+      div.card 
+        h3 Dance Perfection
+        div.card-box
+            div.card-img
+              img(src="static/img/img1.png")
+
+            div.card-content
+              p This is my dance Academy.
+
+      div.card 
+        h3 The way you dance
+        div.card-box
+            div.card-img
+              img(src="static/img/logo1.png")
+
+            div.card-content
+              p This is my dance Academy.
+
+      div.card 
+        h3 Expert Teaching
+        div.card-box
+            div.card-img
+              img(src="static/img/img3.png")
+
+            div.card-content
+              p This is my dance Academy.    
+
+
+    Section#sponsuresection 
+        h2 Our Sponsures
+        div#sponsure
+          img(src="static/img/comp01.png", alt="Sponsure Image", class="spimage" )  
+          img(src="static/img/comp02.png", alt="Sponsure Image", class="spimage" )  
+          img(src="static/img/comp03.png", alt="Sponsure Image", class="spimage" )  
+          img(src="static/img/comp04.png", alt="Sponsure Image", class="spimage" )  
+
+    footer#footer 
+        | Copyright © 2021 Ankit Dance Academy | All Rights Reserved      
